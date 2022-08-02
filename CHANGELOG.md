@@ -25,3 +25,7 @@
 ## 0.0.2+4
 
 * fix: dart sdk.
+
+## 0.0.2+5
+
+* fix: dart.yml.
