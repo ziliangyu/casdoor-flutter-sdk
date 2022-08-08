@@ -62,6 +62,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Dart and Flutter Package Publisher
+        run: flutter packages pub publish --dry-run
         uses: sakebook/actions-flutter-pub-publisher@v1.4.1
         with:
           credential: ${{ secrets.CREDENTIAL_JSON }}
